@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Filter 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Filterify is an application designed to streamline data search and management through a robust categorization system and favorite functions. Developed using React, TypeScript, Redux Toolkit, and MIU (possibly a UI framework), it offers an intuitive and responsive user interface.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Category Filtering: Users can filter data by various categories, enabling them to refine their searches and access relevant information efficiently. Categories may include fields such as date, content type, tags, etc.
 
-## Expanding the ESLint configuration
+Favorites Modal: Filterify features a dedicated modal for managing items marked as favorites by the user. This modal provides a quick and accessible view of favorite items, allowing users to organize and easily access their preferred content.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Filtering and Deletion in Favorites Modal: Within the favorites modal, users have the ability to apply additional filters to further refine their selection. Additionally, they can also delete items directly from this modal, streamlining the favorites management process.
 
-- Configure the top-level `parserOptions` property like this:
+Technologies Used:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+React: Utilized for building the interactive and dynamic user interface.
+TypeScript: Provides static typing to enhance code robustness and readability.
+Redux Toolkit: Employed for managing the application state, facilitating data management, and communication between components.
+MIU (possibly a UI framework): Used to accelerate the development of the user interface, offering pre-defined components and a cohesive visual style.
+Filterify offers a smooth and efficient user experience, allowing users to find, filter, and manage data effectively, all within an environment developed with modern technologies and powerful tools like React, TypeScript, Redux Toolkit, and MIU.
